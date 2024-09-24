@@ -1,0 +1,78 @@
+@import url("./iransans.css");
+body {
+  background-color: rgb(249, 217, 88);
+}
+html {
+  font-family: IRANSansX;
+  font-size: 15px;
+}
+/* Base Container Styles */
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* Extra small devices (phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .container {
+    max-width: 100%; /* Full width on small screens */
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+/* Extra-extra large devices (very large desktops, 1400px and up) */
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1440px;
+  }
+}
+
+.navbar {
+  height: 6rem;
+  display: flex;
+  background-color: white;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+.navbar-list {
+  display: flex;
+  list-style: none;
+}
+.navbar-content {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+.navbar-list li {
+  margin-right: 2.2rem;
+  font-weight: 200;
+}
